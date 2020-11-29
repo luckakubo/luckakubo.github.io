@@ -70,7 +70,6 @@
             <li class="item"><a href="#infogast" onclick="stuk();">O Gaštanke</a></li>
             <li class="item"><a href="#kvetydary" onclick="stuk();">Dary a Kvety</a></li>
             <li class="item"><a href="#naspribeh" onclick="stuk();">Príbeh</a></li>
-            <li class="item"><a href="#napistenam" onclick="stuk();">Potvrď svoju účasť</a></li>
         </ul>
     </nav>
     
@@ -194,45 +193,6 @@
             <img src="img/zasnubysuki.jpeg" alt="" class="obrazky"> 
          </div>
 
-    </section>
-    <section id="napistenam">
-        <h2>Potvrď svoju účasť</h2>
-        <form id="fs-frm" name="basic-rsvp-form" accept-charset="utf-8" action="https://formspree.io/moqkngnj" method="POST"> 
-            <fieldset id="fs-frm-inputs">
-            <label for="attending">Vidíme sa?</label>
-              <select name="attending" id="attending" required="">
-                  <option>Vyberte z možností</option>
-                  <option value="yes">Áno</option>
-                  
-                  <option value="no">Nie</option>
-              </select>
-              <label for="plus">Koľko Vás bude?</label>
-              <select name="plus" id="plus" required="">
-                  <option value="1" selected="">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-              </select>
-              <label for="guests">Vaše mená</label>
-              <textarea name="guests" id="guests" placeholder="Meno Priezvisko" required=""></textarea>
-              <label for="kontaktmail">Kontakt na Vás (e-mail)</label>
-              <textarea name="kontaktmail" id="kontaktmail" placeholder="@" required=""></textarea>
-              <label for="doprava">Využijete našu dopravu?</label>
-              <select name="doprava" id="doprava" required="">
-                  <option>Vyberte z možností</option>
-                  <option value="yes">Áno</option>
-                  <option value="no">Nie</option>
-              </select>
-              <label for="jedlo">Intolerancia na jedlo</label>
-              <textarea name="jedlo" id="guests" placeholder="Vegetarián/Vegán/..."></textarea>
-              <label for="odkaz">Chcete nám ešte niečo napísať?</label>
-              <textarea name="odkaz" id="odkaz" placeholder=""></textarea>
-            </select>
-              
-              <input type="hidden" name="_subject" id="email-subject" value="RSVP">
-            </fieldset>
-            <input type="submit" value="Odoslať">
-        </form>
     </section>
     <section>
         <h2>Do svadby ostáva</h2>
